@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="Rails alpha-blog: development" uuid="9a3e75ae-9d3e-4542-9f7f-ad440bd04ebd">
+      <auth-required>false</auth-required>
+    </data-source>
+    <data-source name="PostgreSQL - teste@localhost" uuid="c90622d1-3c5b-42f0-be86-f9792b83fac6">
+      <secret-storage>master_key</secret-storage>
+      <user-name>postgres</user-name>
+    </data-source>
+  </component>
+</project>
