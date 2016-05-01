@@ -5,7 +5,8 @@ Rails.application.routes.draw do
   # mount ActionCable.server => '/cable'
 
   root 'pages#home'
-  get'about', to:'pages#about'
+  get 'about', to: 'pages#about'
   resources :articles
-
+  get 'signup', to: 'users#new'
+  resources :users, except: [:new] #importante esse krl
 end
