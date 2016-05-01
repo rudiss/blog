@@ -4,7 +4,7 @@ source 'https://rubygems.org'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '>= 5.0.0.beta3', '< 5.1'
 # Use sqlite3 as the database for Active Record
-
+gem 'bcrypt' , '~> 3.1.7'
 # Use Puma as the app server
 gem 'puma'
 # Use SCSS for stylesheets
@@ -27,7 +27,7 @@ gem 'jbuilder', '~> 2.0'
 # gem 'redis', '~> 3.0'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
-
+gem 'activesupport', '~> 5.0.0.beta4'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
