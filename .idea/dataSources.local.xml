@@ -12,7 +12,6 @@
     </data-source>
     <data-source name="Rails alpha-blog: test" uuid="4ee695a3-aabc-4de2-abc1-25f232850f72">
       <auth-required>false</auth-required>
-      <first-sync>true</first-sync>
     </data-source>
   </component>
 </project>

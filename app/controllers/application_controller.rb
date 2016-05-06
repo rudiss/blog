@@ -16,7 +16,7 @@ class ApplicationController < ActionController::Base
     !!current_user #verifica se usuario esta logado
   end
 
-  def require_user
+  def require_user # protecao
     if !logged_in?
       flash[:danger] = "Você precisa estar logado para realizar essa ação!"
       redirect_to root_path
