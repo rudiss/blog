@@ -14,7 +14,7 @@
               </small>
             </div>
           </div>
-          <% if logged_in? && current_user == article.user %> <!-- deletar ou editar se forem os donos dos post -->
+          <% if logged_in? && (current_user == article.user || current_user.admin?) %> <!-- deletar ou editar se forem os donos dos post -->
               <div class="article-actions">
                 <%= link_to "Edit this article", article_path(article), class: "bt btn-xs btn-primary" %>
                 <%= link_to "Delete this article", article_path(article), method: :delete, data: {confirm: "Are you sure you  want to delete the article?"}, class: "btn btn-xs btn-danger" %>
