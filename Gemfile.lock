@@ -181,7 +181,7 @@ DEPENDENCIES
   jbuilder (~> 2.0)
   jquery-rails
   listen (~> 3.0.5)
-  pg (~> 0.18.4)
+  pg
   puma
   rails (>= 5.0.0.beta3, < 5.1)
   rails_12factor
