@@ -7,11 +7,14 @@
     <data-source name="PostgreSQL - teste@localhost" uuid="c90622d1-3c5b-42f0-be86-f9792b83fac6">
       <secret-storage>master_key</secret-storage>
       <user-name>postgres</user-name>
+<<<<<<< HEAD
       <schema-pattern>teste.pg_catalog teste.public</schema-pattern>
       <default-schemas>teste.public</default-schemas>
     </data-source>
     <data-source name="Rails alpha-blog: test" uuid="4ee695a3-aabc-4de2-abc1-25f232850f72">
       <auth-required>false</auth-required>
+=======
+>>>>>>> 491a24b1fe80297020f4ff1c15f01387fb7f2b88
     </data-source>
   </component>
 </project>

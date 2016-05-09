@@ -5,6 +5,7 @@
   </div>
 </div>
 <h4 align="center">Artigos de <%= @user.username %></h4>
+<<<<<<< HEAD
 <div class="center">
   <%= will_paginate @user_articles %>
 </div>
@@ -12,3 +13,7 @@
 <div class="center">
   <%= will_paginate @user_articles %>
 </div>
+=======
+
+<%= render 'articles/article', obj: @user.articles%>
+>>>>>>> 491a24b1fe80297020f4ff1c15f01387fb7f2b88

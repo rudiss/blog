@@ -24,20 +24,33 @@ $navbar-default-bg: black;
 .jumbotron {
   background-image: asset_url('code.jpg');
   background-size: cover;
+<<<<<<< HEAD
   height: 42em;
 }
 
 /*.jumbotron h1 {
+=======
+  height: 400px;
+}
+
+.jumbotron h1 {
+>>>>>>> 491a24b1fe80297020f4ff1c15f01387fb7f2b88
   color: white;
   text-align: center;
   text-shadow: 1px 1px 1px black;
   margin-bottom: 30px;
   letter-spacing: -1px;
   font-weight: bold;
+<<<<<<< HEAD
 }*/
 
 .btn-xlarge {
   margin-top: 19em;
+=======
+}
+
+.btn-xlarge {
+>>>>>>> 491a24b1fe80297020f4ff1c15f01387fb7f2b88
   font-size: 1.7em;
   background-color: black;
 }

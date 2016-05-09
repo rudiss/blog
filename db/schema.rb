@@ -11,7 +11,11 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
+<<<<<<< HEAD
 ActiveRecord::Schema.define(version: 20160506054159) do
+=======
+ActiveRecord::Schema.define(version: 20160501205047) do
+>>>>>>> 491a24b1fe80297020f4ff1c15f01387fb7f2b88
 
   create_table "articles", force: :cascade do |t|
     t.string   "title"
@@ -24,10 +28,16 @@ ActiveRecord::Schema.define(version: 20160506054159) do
   create_table "users", force: :cascade do |t|
     t.string   "username"
     t.string   "email"
+<<<<<<< HEAD
     t.datetime "created_at",                      null: false
     t.datetime "updated_at",                      null: false
     t.string   "password_digest"
     t.boolean  "admin",           default: false
+=======
+    t.datetime "created_at",      null: false
+    t.datetime "updated_at",      null: false
+    t.string   "password_digest"
+>>>>>>> 491a24b1fe80297020f4ff1c15f01387fb7f2b88
   end
 
 end
