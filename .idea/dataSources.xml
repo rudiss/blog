@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+<<<<<<< HEAD
   <component name="DataSourceManagerImpl" format="xml" hash="3070330053">
+=======
+<<<<<<< HEAD
+  <component name="DataSourceManagerImpl" format="xml" hash="3820981719">
+=======
+  <component name="DataSourceManagerImpl" format="xml" hash="731193026">
+>>>>>>> 491a24b1fe80297020f4ff1c15f01387fb7f2b88
+>>>>>>> 1621341b6e23b1fc4ae34ca50d73b612a4f2a038
     <data-source source="LOCAL" name="Rails alpha-blog: development" uuid="9a3e75ae-9d3e-4542-9f7f-ad440bd04ebd">
       <driver-ref>sqlite.xerial</driver-ref>
       <synchronize>true</synchronize>
@@ -26,6 +34,7 @@
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
       <jdbc-url>jdbc:postgresql://localhost:5432/teste</jdbc-url>
     </data-source>
+<<<<<<< HEAD
     <data-source source="LOCAL" name="Rails alpha-blog: test" uuid="4ee695a3-aabc-4de2-abc1-25f232850f72">
       <driver-ref>sqlite.xerial</driver-ref>
       <synchronize>true</synchronize>
@@ -45,5 +54,7 @@
         </library>
       </libraries>
     </data-source>
+=======
+>>>>>>> 491a24b1fe80297020f4ff1c15f01387fb7f2b88
   </component>
 </project>

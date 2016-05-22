@@ -5,7 +5,11 @@
     <case-sensitivity plain-identifiers="mixed" quoted-identifiers="mixed"/>
     <schema name="" catalog=""/>
     <table name="ar_internal_metadata" schema="" catalog="" type="TABLE">
+<<<<<<< HEAD
       <column name="key" sqlType="VARCHAR" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+=======
+      <column name="key" sqlType="VARCHAR" precision="0" scale="-1" nullable="true" jdbcType="12"/>
+>>>>>>> 491a24b1fe80297020f4ff1c15f01387fb7f2b88
       <column name="value" sqlType="VARCHAR" precision="0" scale="-1" nullable="true" jdbcType="12"/>
       <column name="created_at" sqlType="DATETIME" precision="0" scale="-1" nullable="false" jdbcType="12"/>
       <column name="updated_at" sqlType="DATETIME" precision="0" scale="-1" nullable="false" jdbcType="12"/>
@@ -28,7 +32,11 @@
       <primary-key columns="id"/>
     </table>
     <table name="schema_migrations" schema="" catalog="" type="TABLE">
+<<<<<<< HEAD
       <column name="version" sqlType="VARCHAR" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+=======
+      <column name="version" sqlType="VARCHAR" precision="0" scale="-1" nullable="true" jdbcType="12"/>
+>>>>>>> 491a24b1fe80297020f4ff1c15f01387fb7f2b88
       <primary-key columns="version"/>
     </table>
     <table name="sqlite_sequence" schema="" catalog="" type="TABLE">
@@ -41,8 +49,11 @@
       <column name="email" sqlType="VARCHAR" precision="0" scale="-1" nullable="true" jdbcType="12"/>
       <column name="created_at" sqlType="DATETIME" precision="0" scale="-1" nullable="false" jdbcType="12"/>
       <column name="updated_at" sqlType="DATETIME" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+<<<<<<< HEAD
       <column name="password_digest" sqlType="VARCHAR" precision="0" scale="-1" nullable="true" jdbcType="12"/>
       <column name="admin" sqlType="BOOLEAN" precision="0" scale="-1" nullable="true" jdbcType="4" def="J2Yn"/>
+=======
+>>>>>>> 491a24b1fe80297020f4ff1c15f01387fb7f2b88
       <primary-key columns="id"/>
     </table>
   </data-source>
@@ -56,6 +67,7 @@
       <schema id="2" parent="1" name="public">
         <object-id>2200</object-id>
         <comment>standard public schema</comment>
+<<<<<<< HEAD
         <introspection-state-number>1842</introspection-state-number>
         <introspection-timestamp>2016-05-02.02:06:19.220</introspection-timestamp>
       </schema>
@@ -59213,4 +59225,10 @@ umserver</columns>
       <primary-key columns="id"/>
     </table>
   </data-source>
+=======
+        <introspection-timestamp>2016-04-24.14:02:52.493</introspection-timestamp>
+      </schema>
+    </database-model>
+  </data-source>
+>>>>>>> 491a24b1fe80297020f4ff1c15f01387fb7f2b88
 </component>
