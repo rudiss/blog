@@ -1,16 +1,10 @@
 class UsersController < ApplicationController
-<<<<<<< HEAD
   before_action :set_user, only: [:edit, :update, :show]
   before_action :require_same_user, only: [:edit, :update]
   before_action :require_admin, only: [:destroy]
 
   def index
     @users = User.paginate(page: params[:page], per_page: 5)
-=======
-
-  def index
-    @users = User.all
->>>>>>> 491a24b1fe80297020f4ff1c15f01387fb7f2b88
   end
 
   def new
@@ -20,33 +14,20 @@ class UsersController < ApplicationController
   def create
     @user = User.new(user_params)
     if @user.save
-<<<<<<< HEAD
       session[:user_id] = @user.id
       flash[:success] = "Bem vindo ao Blog da Nanda, #{@user.username}!"
       redirect_to user_path(@user)
-=======
-      flash[:success] = "Bem vindo ao Blog da Nanda, #{@user.username}!"
-      redirect_to articles_path
->>>>>>> 491a24b1fe80297020f4ff1c15f01387fb7f2b88
     else
       render 'new'
     end
   end
 
   def edit
-<<<<<<< HEAD
 
   end
 
   def update
 
-=======
-    @user = User.find(params[:id])
-  end
-
-  def update
-    @user = User.find(params[:id])
->>>>>>> 491a24b1fe80297020f4ff1c15f01387fb7f2b88
     if @user.update(user_params)
       flash[:success] = "Sua conta foi atualizada com sucesso!"
       redirect_to articles_path
@@ -57,7 +38,6 @@ class UsersController < ApplicationController
 
   def show
     @user = User.find(params[:id])
-<<<<<<< HEAD
     @user_articles = @user.articles.paginate(page: params[:page], per_page: 5)
   end
 
@@ -66,8 +46,6 @@ class UsersController < ApplicationController
     @user.destroy
     flash[:danger] = "Todas as publicações e o usuário foram deletas com sucesso!"
     redirect_to users_path
-=======
->>>>>>> 491a24b1fe80297020f4ff1c15f01387fb7f2b88
   end
 
   private
@@ -75,7 +53,6 @@ class UsersController < ApplicationController
     params.require(:user).permit(:username, :email, :password)
   end
 
-<<<<<<< HEAD
   def set_user
 
     @user = User.find(params[:id])
@@ -96,6 +73,4 @@ class UsersController < ApplicationController
     end
   end
 
-=======
->>>>>>> 491a24b1fe80297020f4ff1c15f01387fb7f2b88
 end

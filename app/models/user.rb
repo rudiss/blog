@@ -1,9 +1,9 @@
 class User < ActiveRecord::Base
-<<<<<<< HEAD
+
   has_many :articles, dependent:  :destroy #destroy qualquer artigo que usuario tiver..
-=======
+
   has_many :articles
->>>>>>> 491a24b1fe80297020f4ff1c15f01387fb7f2b88
+
   before_save{ self.email = email.downcase } #coloca o email em letra minuscula antes de salvar na database
   validates :username, presence: true,
             uniqueness: {case_sensitive: false},
